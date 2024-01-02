@@ -1,0 +1,36 @@
+.comment{
+    margin: 20px 0px;
+    border-bottom: 1px solid gainsboro;
+    padding: 10px;
+}
+.user{
+    display: flex;
+    gap: 10px;
+}
+.userText{
+    display: flex;
+    flex-direction: column;
+    color: var(--softTextColor);
+}
+.avatar{
+    border-radius: 50%;
+}
+.writeComment{
+    display: flex;
+    margin: 5px 0px;
+}
+.textarea1{
+    padding: 10px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.button1{
+    padding: 0px 30px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    margin: 0px 10px;
+    border: none;
+    border-radius: 5px;
+}

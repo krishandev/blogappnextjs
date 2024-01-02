@@ -1,0 +1,99 @@
+.container{
+
+width: 100%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.textContainer{
+    padding: 5px 0px;
+}
+.title{
+    text-transform: capitalize;
+}
+.user{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.avatar{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.imageContainer{
+    height: 400px;
+    position: relative;
+}
+.userTextContainer{
+    display: flex;
+    flex-direction: column;
+    color: var(--softTextColor);
+}
+.image{
+    object-fit: cover;
+    position: absolute
+}
+.content{
+    padding: 20px 0px;
+    display: flex;
+    gap: 20px;
+}
+.content1{
+    width: 100%;
+    flex: 5;
+}
+.description p{
+    margin: 10px 0px;
+}
+
+.description h1{
+    margin: 10px 0px;
+    text-transform: capitalize;
+}
+.description h2{
+    margin: 10px 0px;
+    text-transform: capitalize;
+}
+.description h3{
+    text-transform: capitalize;
+    margin: 10px 0px;
+}
+.description h4{
+    margin: 10px 0px;
+    text-transform: capitalize;
+}
+.description h5{
+    margin: 10px 0px;
+    text-transform: capitalize;
+}
+.description h6{
+    margin: 10px 0px;
+    text-transform: capitalize;
+}
+.description img{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:1536px) {
+    .title{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .title{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .imageContainer{
+        display: none;
+    }
+}
+@media screen and (max-width:640px) {
+    .title{
+        font-size: 20px;
+    }
+}

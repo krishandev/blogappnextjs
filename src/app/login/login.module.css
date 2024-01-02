@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.container2{
+    background-color: gainsboro;
+    height: 500px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.googleButton{
+    background-color: coral;
+    color: white;
+    padding: 10px 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gitButton{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.faceButton{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
